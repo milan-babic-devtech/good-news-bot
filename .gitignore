@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+data/
+logs/
+*.db
+*.log
+task.xml
+register_task.bat
+unregister_task.bat
+run.bat

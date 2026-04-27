@@ -1,0 +1,13 @@
+rss_feeds:
+  - {url: "https://www.positive.news/feed/", name: "Positive News"}
+  - {url: "https://www.goodnewsnetwork.org/feed/", name: "Good News Network"}
+  - {url: "https://feeds.bbci.co.uk/news/world/rss.xml", name: "BBC World"}
+  - {url: "https://feeds.reddit.com/r/UpliftingNews/.rss", name: "Uplifting News"}
+  - {url: "https://rss.sciencedaily.com/top/science.xml", name: "ScienceDaily"}
+
+api_keywords:
+  - "breakthrough discovery"
+  - "rescue saved"
+  - "climate solution"
+  - "medical advance"
+  - "community kindness"
