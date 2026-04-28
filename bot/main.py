@@ -46,12 +46,7 @@ def main() -> None:
     scheduler = BlockingScheduler(timezone="Europe/Belgrade")
 
     scheduler.add_job(_safe(run_fetch), IntervalTrigger(hours=2), id="fetch")
-    scheduler.add_job(
-        _safe(run_score),
-        IntervalTrigger(hours=2),
-        id="score",
-        next_run_time=None,  # first run offset handled by startup sequence
-    )
+    scheduler.add_job(_safe(run_score), IntervalTrigger(hours=2), id="score")
     for hour in [8, 12, 16, 20]:
         scheduler.add_job(
             _safe(run_post),
